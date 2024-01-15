@@ -1,6 +1,33 @@
-![Metrics](https://metrics.lecoq.io/RaymONT-Up?template=classic&isocalendar=1&languages=1&leetcode=1&introduction=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=half-year&languages=false&languages.ignored=HTML%2C%20CSS&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&introduction=false&introduction.title=true&leetcode=false&leetcode.user=raymont&leetcode.sections=solved&leetcode.limit.skills=6&leetcode.limit.recent=2&config.timezone=Europe%2FMoscow)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=RaymONT-up&theme=dark&hide_border=false)<br/>
-![](https://www.codewars.com/users/Raymont/badges/large)<br/>
-<br/>
-[![LeetCode user raymont](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved%20tasks&query=solved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fraymont&logo=leetcode&logoColor=yellow)](https://leetcode.com/raymont/)
+```TypeScript
+interface IUser {...}
+const Raymont: IUser = {
+  name: 'Raymont',
+  role: 'Frontend React Developer',
+  dateOfCreation: '17.02.2006', // Date of Birth
+  dateOfDeletion: null, // Date of death
+  technologies: {
+    programmingLanguages: ['JavaScript', 'TypeScript'],
+    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase','i18n'],
+    developmentTools: {
+      buildTools: ['Webpack','Gulp'],
+      testing: ['Jest', 'React Testing Library', 'Loki', 'Storybook']
+      linting: ['Stylelint', 'ESLint', 'Prettier'],
+      versionControl: ['Git'],
+      packageManagers: ['npm','yarn']
+    };
+    designTools: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator', 'Photopea'],
+    methodologies: ['BEM', 'DRY', 'Feature-Sliced-Design'],
+    packageManagers: ['npm'],
+  },
+  languages: [
+    { name: 'Russian', level: 'Native' },
+    { name: 'English', level: 'B1'},
+    { name: 'Japanese', level: 'Wakarimasen'},
+    { name: 'French', level: 'Bonjour'},
+  ],
+  location: {
+    current: 'Russia, Volgograd',
+    description: 'Open for relocation'
+  }
+};
+```
