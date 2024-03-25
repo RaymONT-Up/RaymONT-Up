@@ -13,17 +13,19 @@ const Raymont: IUser = {
   dateOfDeletion: null, 
   technologies: {
     programmingLanguages: ['JavaScript', 'TypeScript'],
-    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase','i18n'],
+    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind'],
+    backend: ['Node.js', 'Express', 'JWT', 'Socket io'],
+    devOps: ['Nginx', 'Docker'],
     developmentTools: {
-      buildTools: ['Webpack','Gulp'],
-      testing: ['Jest', 'React Testing Library', 'Loki', 'Storybook'],
+      buildTools: ['Webpack','Gulp', 'Vite'],
+      testing: ['Jest', 'React-Testing-Library', 'Loki', 'Storybook'],
       linting: ['Stylelint', 'ESLint', 'Prettier'],
-      versionControl: ['Git', 'Github Actions', 'Husky'],
-      packageManagers: ['npm','yarn']
+      versionControl: ['Git', 'Gitlab' 'Github Actions', 'Husky'],
+      packageManagers: ['npm', 'yarn'],
     },
-    designTools: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator', 'Photopea'],
+    designTools: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator', 'Photopea', 'MagixVoxel', 'DragonBones'],
     methodologies: ['BEM', 'DRY', 'Feature-Sliced-Design'],
-    other: ['Notion', 'Evernote', 'Toggl', 'ChatGPT']
+    other: ['Notion', 'Evernote', 'Toggl', 'ChatGPT', 'Trello', 'Jira'],
   },
   languages: [
     { name: 'Russian', level: 'Native' },
