@@ -13,11 +13,11 @@ const Raymont: IUser = {
   dateOfDeletion: null, 
   technologies: {
     programmingLanguages: ['JavaScript', 'TypeScript'],
-    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind'],
-    backend: ['Node.js', 'Express', 'JWT', 'Socket io'],
+    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind', 'Electron', 'Chart.js', '],
+    backend: ['Node.js', 'Express', 'JWT', 'Socket io', 'MongoDB', 'SQLite'],
     devOps: ['Nginx', 'Docker'],
     developmentTools: {
-      buildTools: ['Webpack','Gulp', 'Vite'],
+      buildTools: ['Webpack', 'Gulp', 'Vite'],
       testing: ['Jest', 'React-Testing-Library', 'Loki', 'Storybook'],
       linting: ['Stylelint', 'ESLint', 'Prettier'],
       versionControl: ['Git', 'Gitlab' 'Github Actions', 'Husky'],
