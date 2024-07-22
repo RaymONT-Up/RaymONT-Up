@@ -9,11 +9,9 @@ interface IUser {...};
 const Raymont: IUser = {
   name: 'Raymont',
   role: 'Frontend Developer',
-  dateOfCreation: '17.02.2006', 
-  dateOfDeletion: null, 
   technologies: {
     programmingLanguages: ['JavaScript', 'TypeScript'],
-    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind', 'Electron', 'Chart.js', '],
+    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind', 'Electron', 'Chart.js'],
     backend: ['Node.js', 'Express', 'JWT', 'Socket io', 'MongoDB', 'SQLite'],
     devOps: ['Nginx', 'Docker'],
     developmentTools: {
@@ -23,8 +21,8 @@ const Raymont: IUser = {
       versionControl: ['Git', 'Gitlab' 'Github Actions', 'Husky'],
       packageManagers: ['npm', 'yarn'],
     },
-    designTools: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator', 'Photopea', 'MagixVoxel', 'DragonBones'],
     methodologies: ['BEM', 'DRY', 'Feature-Sliced-Design'],
+    designTools: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator', 'Photopea', 'MagixVoxel', 'DragonBones'],
     other: ['Notion', 'Evernote', 'Toggl', 'ChatGPT', 'Trello', 'Jira'],
   },
   languages: [
