@@ -6,8 +6,8 @@ const Raymont: IUser = {
   role: 'JavaScript Engineer',
   technologies: {
     programmingLanguages: ['JavaScript', 'TypeScript'],
-    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind', 'Electron', 'Chart.js', 'WebMiniAps Telegram', 'React Native',],
-    backend: ['Node.js', 'Express', 'JWT', 'Socket io', 'MongoDB', 'SQLite', 'MySql'],
+    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind', 'Electron', 'Chart.js', 'WebMiniAps Telegram', 'React Native', 'Tanstack', 'ReactQuery', 'Remix', 'Vue2/3', 'Nuxt', 'React-hook-form', 'Zod', 'Yup', 'Aria/Semantic/Seo', 'i18n',],
+    backend: ['Node.js', 'Express', 'JWT', 'Socket io', 'MongoDB', 'SQLite', 'MySql', 'node-telegram-bot-api'],
     devOps: ['Nginx', 'Docker', 'Ngrok'],
     developmentTools: {
       buildTools: ['Webpack', 'Gulp', 'Vite'],
@@ -16,7 +16,7 @@ const Raymont: IUser = {
       versionControl: ['Git', 'Gitlab' 'Github Actions', 'Husky', 'Gitlab CD'],
       packageManagers: ['npm', 'yarn'],
     },
-    methodologies: ['BEM', 'DRY', 'Feature-Sliced-Design'],
+    methodologies: ['BEM', 'DRY', 'Feature-Sliced-Design', 'KISS'],
     designTools: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator', 'Photopea', 'MagixVoxel', 'DragonBones'],
     other: ['Notion', 'Evernote', 'Toggl', 'ChatGPT', 'Trello', 'Jira'],
   },
