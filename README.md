@@ -3,17 +3,17 @@ interface IUser {...};
 
 const Raymont: IUser = {
   name: 'Raymont',
-  role: 'JavaScript Engineer,
+  role: 'JavaScript Engineer',
   technologies: {
     programmingLanguages: ['JavaScript', 'TypeScript'],
-    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind', 'Electron', 'Chart.js'],
-    backend: ['Node.js', 'Express', 'JWT', 'Socket io', 'MongoDB', 'SQLite'],
-    devOps: ['Nginx', 'Docker'],
+    frontend: ['HTML','CSS','SCSS', 'React', 'Redux (Toolkit)', 'Axios', 'Firebase', 'i18n', 'NextJs', 'Strapi CMS', 'MaterialUI', 'Tailwind', 'Electron', 'Chart.js', 'WebMiniAps Telegram', 'React Native',],
+    backend: ['Node.js', 'Express', 'JWT', 'Socket io', 'MongoDB', 'SQLite', 'MySql'],
+    devOps: ['Nginx', 'Docker', 'Ngrok'],
     developmentTools: {
       buildTools: ['Webpack', 'Gulp', 'Vite'],
       testing: ['Jest', 'React-Testing-Library', 'Loki', 'Storybook'],
       linting: ['Stylelint', 'ESLint', 'Prettier'],
-      versionControl: ['Git', 'Gitlab' 'Github Actions', 'Husky'],
+      versionControl: ['Git', 'Gitlab' 'Github Actions', 'Husky', 'Gitlab CD'],
       packageManagers: ['npm', 'yarn'],
     },
     methodologies: ['BEM', 'DRY', 'Feature-Sliced-Design'],
