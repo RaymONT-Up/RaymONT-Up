@@ -1,28 +1,5 @@
 ```TypeScript
-interface IUser {
-  name: string;
-  role: string;
-  technologies: {
-    programmingLanguages: string[];
-    frontend: string[];
-    backend: string[];
-    blockchain?: string[];
-    devOps: string[];
-    developmentTools: {
-      buildTools: string[];
-      testing: string[];
-      linting: string[];
-      versionControl: string[];
-      packageManagers: string[];
-    };
-    methodologies: string[];
-    designTools: string[];
-    other: string[];
-  };
-  languages: { name: string; level: string }[];
-  location: { current: string; description: string };
-  years: number;
-}
+interface IUser {...}
 
 const Raymont: IUser = {
   name: "Raymont",
@@ -65,13 +42,13 @@ const Raymont: IUser = {
       "MySQL",
       "SQLite",
       "Firebase",
-      "node-telegram-bot-api"
-    ],
-    blockchain: [
-      "Web3 basics",
+      "node-telegram-bot-api",
       "WebRTC",
       "WebSockets",
       "SSE",
+    ],
+    blockchain: [
+      "Web3 basics",
       "viem",
       "wagmi",
       "Liquidity pools",
@@ -79,7 +56,7 @@ const Raymont: IUser = {
     ],
     devOps: ["Nginx", "Docker", "Ngrok", "CI/CD (GitHub Actions, GitLab CI/CD)", "SSL/TLS setup"],
     developmentTools: {
-      buildTools: ["Webpack", "Vite", "Gulp"],
+      buildTools: ["Webpack", "Vite", "Nx", "turborepo", "Gulp"],
       testing: ["Jest", "React Testing Library", "Loki", "Storybook"],
       linting: ["ESLint", "Prettier", "Stylelint"],
       versionControl: ["Git", "GitLab", "GitHub", "Husky"],
@@ -103,7 +80,7 @@ const Raymont: IUser = {
     { name: "French", level: "Bonjour" }
   ],
   location: {
-    current: "Kazakhstan, open for remote",
+    current: "",
     description: "Remote / Relocation open"
   },
   years: 19
