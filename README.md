@@ -31,7 +31,10 @@ const Raymont: IUser = {
       "React Native",
       "Telegram Web MiniApps",
       "i18n",
-      "Aria/Semantic/SEO"
+      "Aria/Semantic/SEO",
+      "GraphQL",
+      "Mantine",
+      "Zustand",
     ],
     backend: [
       "Node.js",
@@ -80,10 +83,10 @@ const Raymont: IUser = {
     { name: "French", level: "Bonjour" }
   ],
   location: {
-    current: "",
+    current: "KZ",
     description: "Remote / Relocation open"
   },
-  years: 19
+  years: 20
 };
 
 ```
