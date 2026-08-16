@@ -49,6 +49,7 @@ const Raymont: IUser = {
       "WebRTC",
       "WebSockets",
       "SSE",
+      "Webhooks",
     ],
     blockchain: [
       "Web3 basics",
@@ -83,7 +84,7 @@ const Raymont: IUser = {
     { name: "French", level: "Bonjour" }
   ],
   location: {
-    current: "KZ",
+    current: "Georgia, Tbilisi",
     description: "Remote / Relocation open"
   },
   years: 20
